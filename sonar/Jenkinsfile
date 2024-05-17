@@ -15,10 +15,10 @@ pipeline {
                 // To run Maven on a Windows agent, use
                  // bat "mvn -Dmaven.test.failure.ignore=true clean package"
                 bat "mvn clean verify sonar:sonar \
-              -Dsonar.projectKey=helloworld \
-              -Dsonar.projectName='helloworld' \
+              -Dsonar.projectKey=helloworld1 \
+              -Dsonar.projectName='helloworld1' \
               -Dsonar.host.url=http://localhost:9000 \
-              -Dsonar.token=sqp_b1baa6c0a344bd4327c3f0d54c286d0c0f0235bf"
+              -Dsonar.token=sqp_ede3fb3e31d44db8bae7aa702e9fa3ce3d3e0861"
 
             }
         //     post{
